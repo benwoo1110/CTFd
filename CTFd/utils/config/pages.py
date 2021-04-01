@@ -3,13 +3,13 @@ from flask import current_app
 from CTFd.cache import cache
 from CTFd.models import Pages, db
 from CTFd.utils import markdown
-from CTFd.utils.security.sanitize import sanitize_html
+# from CTFd.utils.security.sanitize import sanitize_html
 
 
 def build_html(html, sanitize=False):
     html = markdown(html)
-    if current_app.config["HTML_SANITIZATION"] is True or sanitize is True:
-        html = sanitize_html(html)
+    # if current_app.config["HTML_SANITIZATION"] is True or sanitize is True:
+    #     html = sanitize_html(html)
     return html
 
 
