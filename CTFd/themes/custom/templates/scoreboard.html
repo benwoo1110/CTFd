@@ -1,10 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="jumbotron">
-	<div class="container">
-		<h1>Scoreboard</h1>
-	</div>
+<div class="page-header bg-hnc">
+	<img src="{{ url_for('views.themes', path='img/headers/scoreboard.jpg') }}"  class="header-img" alt="Challenges" />
 </div>
 <div class="container">
 	{% include "components/errors.html" %}
