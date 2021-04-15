@@ -1,3 +1,7 @@
+.bg-darker {
+  background-color: rgb(32, 35, 35) !important;
+}
+
 .bg-hnc {
   background-color: rgb(49, 79, 117) !important;
 }
