@@ -1,0 +1,17 @@
+.bg-hnc {
+  background-color: rgb(49, 79, 117) !important;
+}
+
+.page-header {
+  padding-bottom: 0.8em;
+  width: 100%;
+}
+
+.header-img {
+  position: relative;
+  width: auto;
+  max-height: 26vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
