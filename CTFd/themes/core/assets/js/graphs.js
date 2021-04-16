@@ -7,6 +7,7 @@ const graph_configs = {
   score_graph: {
     format: (type, id, name, _account_id, responses) => {
       let option = {
+        textStyle: {color: "white"},
         title: {
           left: "center",
           text: "Score over Time"
