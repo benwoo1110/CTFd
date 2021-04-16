@@ -58,9 +58,9 @@ const displayChal = chal => {
     // Build HTML from the Jinja response in API
     $("#challenge-window").append(responses[0].data.view);
 
-    $("#challenge-window #challenge-input").addClass("form-control");
+    $("#challenge-window #challenge-input").addClass("form-control text-white bg-darker");
     $("#challenge-window #challenge-submit").addClass(
-      "btn btn-md btn-outline-secondary float-right"
+      "btn btn-md btn-outline-secondary bg-darker float-right"
     );
 
     let modal = $("#challenge-window").find(".modal-dialog");
